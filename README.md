@@ -4,13 +4,18 @@
 <br/>
 
 ## 💻 Owerview
-To Do List is a web application to create, conclude and delete tasks. This project was developed as the first challenge of Rocketseat's Ignite boot camp on React trail.
-[Remeber, this to-do-list refers to the old curse of react on Rocketseat bootcamp]
+This is a pomodoro aplication, made
 
 ## :hammer: Tools
 -[React](https://pt-br.reactjs.org)<br/>
--[Babel](https://babeljs.io)<br/>
--[Webpack](https://v4.webpack.js.org/configuration/dev-server/)<br/> 
+-[TypeScript]
+-[Eslint]
+-[StyledComponents]
+-[React-Hook-Forms]
+-[React-Rote-DOM]
+-[ContextAPI]
+-[Immer]
+-[Reducers]
 
 ## :camera: ScreenShots
 <h1 aling="center">
