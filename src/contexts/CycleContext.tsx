@@ -103,6 +103,10 @@ export function CyclesContextProvider({
     com esse setAlgo, e depoiis passa essa funcao como uma variavel do useContext */
   }
 
+  function interruptCycle() {
+    dispatch(interruptCycleAction())
+  }
+
   function createNewCycle(data: CreateCycleData) {
     /* ele vai retornar os dados colocados nos inputs do formulario que foram gravados
     pelo onSubmit={handleSubmit} do forms, como essa funcao esta sendo passada como parametro da
@@ -123,10 +127,6 @@ export function CyclesContextProvider({
     ex: setCycles((state) => [...state, newCycle])
     // setActiveCycleId(id) */
     setSecondsPassed(0)
-  }
-
-  function interruptCycle() {
-    dispatch(interruptCycleAction())
   }
 
   return (

@@ -28,6 +28,6 @@ export function interruptCycleAction() {
 }
 export function markCycleAsFinishedAction() {
   return {
-    type: ActionTypes.Interrupt_cycle,
+    type: ActionTypes.Mark_Cycle_as_Finished,
   }
 }
