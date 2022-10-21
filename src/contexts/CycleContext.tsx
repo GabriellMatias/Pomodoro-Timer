@@ -53,18 +53,22 @@ export function CyclesContextProvider({
       cycles: [],
       activeCycleId: null,
     },
-    // /* NAO OBRIGATORIO, recebe um 3 parametro que e os dados que foram salvos no local storage */
-    // () => {
-    //   /* lembrar da tipagem de dados, quando sao retornados do json vem todos como string, entao a data ja da erro pois nao
-    //    e uma string */
-    //   const storedStateJSON = localStorage.getItem(
-    //     '@ignite-timer:cycles-state-2.0',
-    //   )
+    /* NAO OBRIGATORIO, recebe um 3 parametro que e os dados que foram salvos no local storage */
+    () => {
+      /* lembrar da tipagem de dados, quando sao retornados do json vem todos como string, entao a data ja da erro pois nao
+       e uma string */
+      const storedStateJSON = localStorage.getItem(
+        '@ignite-timer:cycles-state-2.0',
+      )
 
-    //   if (storedStateJSON) {
-    //     return JSON.parse(storedStateJSON)
-    //   }
-    // },
+      if (storedStateJSON) {
+        return JSON.parse(storedStateJSON)
+      }
+      return {
+        cycles: [],
+        activeCycleId: null,
+      }
+    },
   )
 
   const { cycles, activeCycleId } = cyclesState
