@@ -1,5 +1,5 @@
 <h1 align="center"> 
-  <img width="150px" src="https://user-images.githubusercontent.com/80908772/194680070-87fbc668-aee7-40d4-98d9-64ba84bf08c5.png"/>
+  <img  src="https://github.com/GabriellMatias/Pomodoro-Timer/assets/80908772/806f848d-b4c2-4d7e-ba8b-900726a2b74b"/>
 </h1>
 <br/>
 
